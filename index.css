@@ -1,0 +1,29 @@
+#container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+#container input{
+    grid-column: 1 / 4;
+}
+
+#operations{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+button{
+    font-size: 30px;
+}
+button:hover{
+    background-color: rgb(255, 127, 138);
+}
+
+body{
+    text-align: center;
+    margin-top: 30vh;
+    background-color: rgb(53, 53, 63);
+}
+input{
+    height: 30px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
